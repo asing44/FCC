@@ -1,47 +1,43 @@
 <script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue'
-import TheWelcome from './components/TheWelcome.vue'
+import MarkdownParser from './components/MarkdownParser.vue'
 </script>
 
 <template>
-  <header>
-    <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
-
-    <div class="wrapper">
-      <HelloWorld msg="You did it!" />
+  <main class="main-block">
+    <h1 class="h1">Markdown Parser!</h1>
+    <h2 class="h2">Paste your Markdown into the input below!</h2>
+    <div id="app">
+      <MarkdownParser />
     </div>
-  </header>
-
-  <main>
-    <TheWelcome />
   </main>
 </template>
 
 <style scoped>
-header {
-  line-height: 1.5;
+
+#app {
+  display: flex;
+  width: 100%;
+  margin: 60px 0 0 0;
+  padding: 0;
+  color: white;
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  text-align: center;
 }
 
-.logo {
-  display: block;
-  margin: 0 auto 2rem;
+.h2 {
+  margin-top: 24px;
 }
 
-@media (min-width: 1024px) {
-  header {
-    display: flex;
-    place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
-  }
-
-  .logo {
-    margin: 0 2rem 0 0;
-  }
-
-  header .wrapper {
-    display: flex;
-    place-items: flex-start;
-    flex-wrap: wrap;
-  }
+.main-block {
+  display: flex;
+  justify-content: left;
+  align-items: flex-start;
+  flex-direction: column;
 }
+
+
+.container, .width  {
+  width: 100%;
+}
+
 </style>
