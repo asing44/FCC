@@ -50,8 +50,9 @@ And if you want to get really crazy, even tables:
     gfm: true,
     breaks: true,
     pedantic: false,
-    smartLists: true,
-    smartypants: true
+    // sanitize: true,
+    // smartLists: true,
+    // smartypants: true
   });
 
 </script>
