@@ -1,17 +1,52 @@
 <script setup lang="ts">
-import Button from './ButtonItem.vue';
+  import Buttons from './ButtonItem.vue';
 </script>
 
 <template>
-  <Button>
-    <template #icon>
-      <DocumentationIcon />
+  <Buttons>
+    <template #button-slot>
+      Q
     </template>
-    <template #heading>Documentation</template>
-
-    Vue’s
-    <a href="https://vuejs.org/" target="_blank" rel="noopener">official documentation</a>
-    provides you with all information you need to get started.
-  </Button>
+  </Buttons>
+  <Buttons>
+    <template #button-slot>
+      W
+    </template>
+  </Buttons>
+  <Buttons>
+    <template #button-slot>
+      E
+    </template>
+  </Buttons>
+  <Buttons>
+    <template #button-slot>
+      A
+    </template>
+  </Buttons>
+  <Buttons>
+    <template #button-slot>
+      S
+    </template>
+  </Buttons>
+  <Buttons>
+    <template #button-slot>
+      D
+    </template>
+  </Buttons>
+  <Buttons>
+    <template #button-slot>
+      Z
+    </template>
+  </Buttons>
+  <Buttons>
+    <template #button-slot>
+      X
+    </template>
+  </Buttons>
+  <Buttons>
+    <template #button-slot>
+      C
+    </template>
+  </Buttons>
 
 </template>
