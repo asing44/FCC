@@ -19,6 +19,15 @@ a,
   padding: 3px;
 }
 
+button {
+  width: 100%;
+  border: unset;
+}
+
+/* ==================================== MAIN ====================================  */
+
+
+
 @media (hover: hover) {
   a:hover {
     background-color: hsla(160, 100%, 37%, 0.2);
@@ -28,6 +37,7 @@ a,
 @media (min-width: 0px) {
   body {
     display: flex;
+    height: 100%;
   }
 
   #app {
