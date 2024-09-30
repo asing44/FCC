@@ -1,12 +1,16 @@
 <script setup>
 import buttonsContainer from "./components/ButtonsContainer.vue";
 
-import { ref } from 'vue'
+import { ref, onMounted } from 'vue'
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { Draggable } from "gsap/Draggable";
+
+gsap.registerPlugin(ScrollTrigger, Draggable);
 
 const powerCheck = ref(false);
 const volumeCopy = ref("");
 const bankCheck = ref(false);
-
 
 function powerToggle() {
   powerCheck.value = !powerCheck.value;
@@ -28,8 +32,8 @@ function bankToggle() {
 <template>
   <h1>FreeCodeCamp Drum Player!</h1>
   <div class="main-wrapper">
-    <main>
-      <section class="buttons">
+    <main id="drum-machine">
+      <section id="display" class="buttons">
         <buttonsContainer :bankCheck></buttonsContainer>
       </section>
       <section class="controls">
