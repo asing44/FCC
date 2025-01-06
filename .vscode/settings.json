@@ -1,0 +1,5 @@
+{
+    "prettier.configPath": "",
+    "prettier.prettierPath": "/usr/local/lib/node_modules/prettier",
+    "better-comments.highlightPlainText": true
+}

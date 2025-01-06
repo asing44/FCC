@@ -1,9 +1,8 @@
 @import './base.css';
 
 #app {
-  height: 100vh;
-  display: grid;
-  place-content: center;
+  height: 100%;
+  margin: 0 auto;
   font-weight: normal;
 }
 

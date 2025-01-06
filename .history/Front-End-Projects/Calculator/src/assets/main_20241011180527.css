@@ -1,0 +1,15 @@
+@import './base.css';
+
+#app {
+  margin: 0 auto;
+  font-weight: normal;
+}
+
+.u_centerAlign {
+  display: grid;
+  place-content: center;
+}
+
+small {
+  margin-top: 1rem;
+}

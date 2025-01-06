@@ -2,8 +2,7 @@
 
 #app {
   height: 100vh;
-  display: grid;
-  place-content: center;
+  margin: auto;
   font-weight: normal;
 }
 
