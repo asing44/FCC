@@ -2,15 +2,6 @@
 import TheWelcome from './components/TheWelcome.vue'
 </script>
 
-<!-- 
-
-States needed:
-- current time
-- break
-- playState (play, pause, restart etc)
-
--->
-
 <template>
   <header>
     <h1>Pomodoro Clock</h1>
@@ -26,6 +17,7 @@ States needed:
 .header {
   display: flex;
   width: 100%;
+  
 }
 
 .subheading {
