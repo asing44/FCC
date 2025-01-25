@@ -1,16 +1,15 @@
 @import './base.css';
 
 body {
-  display: grid;
+  display: flex;
   min-height: 100svh;
-  place-content: center;
+  gap: 3rem;
 }
 
 #app {
-  display: flex;
+  display: grid;
+  place-content: center;
   max-width: 64vw;
-  flex-direction: column;
-  gap: 3rem;
   margin: 0 auto;
   padding: 2rem;
   font-weight: normal;

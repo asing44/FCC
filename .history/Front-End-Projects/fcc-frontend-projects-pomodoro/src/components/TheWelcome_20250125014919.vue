@@ -17,7 +17,6 @@ import ClockEyebrow from './ClockEyebrows.vue'
 
 .main-wrapper {
   display: flex;
-  gap: 2rem;
 }
 
 </style>

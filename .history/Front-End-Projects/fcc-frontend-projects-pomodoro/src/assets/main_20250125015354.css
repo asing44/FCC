@@ -3,7 +3,6 @@
 body {
   display: grid;
   min-height: 100svh;
-  place-content: center;
 }
 
 #app {

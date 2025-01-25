@@ -1,16 +1,9 @@
 @import './base.css';
 
-body {
-  display: grid;
-  min-height: 100svh;
-  place-content: center;
-}
-
 #app {
-  display: flex;
-  max-width: 64vw;
-  flex-direction: column;
-  gap: 3rem;
+  display: grid;
+  place-content: center;
+  max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   font-weight: normal;

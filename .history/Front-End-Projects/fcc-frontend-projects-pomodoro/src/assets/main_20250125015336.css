@@ -1,9 +1,8 @@
 @import './base.css';
 
 body {
-  display: grid;
+  display: flex;
   min-height: 100svh;
-  place-content: center;
 }
 
 #app {

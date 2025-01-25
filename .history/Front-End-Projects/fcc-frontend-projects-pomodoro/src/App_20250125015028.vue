@@ -14,7 +14,7 @@ States needed:
 <template>
   <header>
     <h1 class="title">Pomodoro Clock</h1>
-    <h2 class="subtitle">aka the 25 + 5 clock!</h2>
+    <h2 class="subheading">aka the 25 + 5 clock!</h2>
   </header>
   <main>
     <TheWelcome />
@@ -27,13 +27,7 @@ States needed:
   width: 100%;
 }
 
-.title {
-  font-size: 4rem;
-  line-height: 1.1;
-  text-align: center;
-}
-
-.subtitle {
+.subheading {
   font-size: 1.25rem;
   text-align: center;
 }

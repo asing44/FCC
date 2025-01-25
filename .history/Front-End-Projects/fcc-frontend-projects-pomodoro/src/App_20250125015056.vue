@@ -29,7 +29,6 @@ States needed:
 
 .title {
   font-size: 4rem;
-  line-height: 1.1;
   text-align: center;
 }
 

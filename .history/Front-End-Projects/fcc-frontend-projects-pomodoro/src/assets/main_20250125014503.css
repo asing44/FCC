@@ -7,10 +7,9 @@ body {
 }
 
 #app {
-  display: flex;
+  display: grid;
+  place-content: center;
   max-width: 64vw;
-  flex-direction: column;
-  gap: 3rem;
   margin: 0 auto;
   padding: 2rem;
   font-weight: normal;

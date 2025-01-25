@@ -27,12 +27,6 @@ States needed:
   width: 100%;
 }
 
-.title {
-  font-size: 4rem;
-  line-height: 1.1;
-  text-align: center;
-}
-
 .subtitle {
   font-size: 1.25rem;
   text-align: center;
