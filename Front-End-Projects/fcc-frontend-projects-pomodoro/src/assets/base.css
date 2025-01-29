@@ -1,7 +1,7 @@
 /* color palette from <https://github.com/vuejs/theme> */
 :root {
   --vt-c-white: #ffffff;
-  --vt-c-white-soft: #f8f8f8;
+  --vt-c-white-soft: #f8f8f8c2;
   --vt-c-white-mute: #f2f2f2;
 
   --vt-c-black: #181818;
@@ -83,4 +83,9 @@ body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: var(--vt-c-white);
+}
+
+.effect-hover-pointer {
+  cursor: pointer;
 }

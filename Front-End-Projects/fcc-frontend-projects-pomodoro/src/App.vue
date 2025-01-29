@@ -1,5 +1,5 @@
 <script setup>
-import TheWelcome from './components/TheWelcome.vue'
+import ClockEyebrow from './components/ClockEyebrows.vue'
 </script>
 
 <!-- 
@@ -14,11 +14,16 @@ States needed:
 <template>
   <header>
     <h1 class="title">Pomodoro Clock</h1>
-    <h2 class="subtitle">aka the 25 + 5 clock!</h2>
+    <h2 class="subtitle text-color-mute">aka the 25 + 5 clock!</h2>
   </header>
-  <main>
-    <TheWelcome />
-  </main>
+  <div class="main-wrapper">
+    <ClockEyebrow>
+      <template #heading>Break Length</template>
+    </ClockEyebrow>
+    <ClockEyebrow>
+      <template #heading>Session Length</template>
+    </ClockEyebrow>
+  </div>
 </template>
 
 <style scoped>
@@ -36,6 +41,12 @@ States needed:
 .subtitle {
   font-size: 1.25rem;
   text-align: center;
+}
+
+.main-wrapper {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.25rem;
 }
 
 </style>
